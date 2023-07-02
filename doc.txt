@@ -11,6 +11,8 @@ to the repository
 7. git clone <url> (to clone a repository)
 8. git status (to check the status of the repository)
 9. git log (to check the history of the repository)
+10. git restore <file name> (to restore a file)
+
 
 
 ------------------------------------------------------------------------------------------------------------------------
@@ -37,4 +39,5 @@ remove a file: rm <file name>
 remove a directory: rm -r <directory name>
 move a file: mv <file name> <directory name>
 move a directory: mv <directory name> <directory name>
+
 

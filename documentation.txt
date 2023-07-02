@@ -58,5 +58,5 @@ remove a file: rm <file name>
 remove a directory: rm -r <directory name>
 move a file: mv <file name> <directory name>
 move a directory: mv <directory name> <directory name>
-
+rename a file: mv <file name> <file name>
 

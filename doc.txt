@@ -1,0 +1,40 @@
+
+Git Commands:
+
+1. git init  (to initialize git: create .git folder)
+2. git add .  (to add all files to staging area) | STAGING AREA: a place where you can add files before committing them
+to the repository
+3. git commit -m "message"  (to commit changes to the repository)
+4. git remote add origin   (to add remote repository)
+5. git push -u origin master (to push changes to the remote repository)
+6. git pull origin master (to pull changes from the remote repository)
+7. git clone <url> (to clone a repository)
+8. git status (to check the status of the repository)
+9. git log (to check the history of the repository)
+
+
+------------------------------------------------------------------------------------------------------------------------
+working directory
+what: It is the directory where you are currently working on.
+benefits: It allows you to see the changes you have made to the files in your working directory.
+
+staging AREA
+what: Staging area is a place where you can add files before committing them to the repository.
+benefits: It allows you to review changes before committing them to the repository.
+
+commit
+what: Commit is a command that is used to save changes to the local repository.
+benefits: It allows you to save changes to the local repository.
+
+
+
+// LINUX COMMANDS:
+see hidden files: ls -a (ls: list, -a: all)
+change directory: cd <directory name>
+create a file: touch <file name>
+create a directory: mkdir <directory name>
+remove a file: rm <file name>
+remove a directory: rm -r <directory name>
+move a file: mv <file name> <directory name>
+move a directory: mv <directory name> <directory name>
+

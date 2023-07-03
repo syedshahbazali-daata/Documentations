@@ -60,3 +60,10 @@ move a file: mv <file name> <directory name>
 move a directory: mv <directory name> <directory name>
 rename a file: mv <file name> <file name>
 
+
+// delete all files except one file using linux command:
+rm !(file name) bash: !: event not found (error)
+
+why: It is because of the history expansion feature of the bash shell
+solution: set +H (to turn off the history expansion feature of the bash shell)
+

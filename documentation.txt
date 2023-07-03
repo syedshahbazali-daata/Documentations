@@ -67,3 +67,4 @@ rm !(file name) bash: !: event not found (error)
 why: It is because of the history expansion feature of the bash shell
 solution: set +H (to turn off the history expansion feature of the bash shell)
 
+---

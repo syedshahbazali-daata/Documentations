@@ -17,6 +17,10 @@ to the repository
 git remote add origin <url>
 git push -u origin master (-u: upstream) (master: branch name) (origin: remote repository name)
 
+// all branches:
+git branch -a
+
+// delete a branch:
 
 
 // GIT TERMINOLOGIES:
@@ -68,3 +72,5 @@ why: It is because of the history expansion feature of the bash shell
 solution: set +H (to turn off the history expansion feature of the bash shell)
 
 ------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------
+

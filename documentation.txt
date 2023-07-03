@@ -13,6 +13,9 @@ to the repository
 9. git log (to check the history of the repository)
 10. git restore <file name> (to restore a file)
 
+// delete file from git repository:
+git rm <file name>
+
 // connect to github repository:
 git remote add origin <url>
 git push -u origin master (-u: upstream) (master: branch name) (origin: remote repository name)
@@ -35,6 +38,11 @@ branch: It is a command that is used to create a new branch.
 merge: It is a command that is used to merge two branches.
 checkout: It is a command that is used to switch from one branch to another.
 fork: It is a command that is used to create a copy of a repository.
+
+
+// difference between git pull and git fetch:
+git pull: It is used to fetch and download content from a remote repository and immediately update the local repository to match that content.
+git fetch: It is used to fetch and download content from a remote repository but it does not update the local repository.
 
 
 
